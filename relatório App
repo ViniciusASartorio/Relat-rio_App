@@ -1,0 +1,35 @@
+---
+title: "CE302: App Fraude"
+date: 2024-12-08
+author:
+  - name: Vinícius Antonio Sartório, Vinicius De Lima Santana, Gligor Douglas Ortiz, Alan Vitor, Jonathas Pereira
+    id: dm
+    email: viniciusartorio@gmail.com | santanavinicius05@gmail.com | gligordouglas@gmail.com | |
+    affiliation: 
+      - name: Universidade Federal do Paraná
+        city: Curitiba
+        state: PR
+        url: https://github.com/Ce3002/trabalho-final-fraudes | https://github.com/ViniciusASartorio | https://github.com/jonhsp | https://github.com/GligorDouglas | https://github.com/alanvitor1 | https://github.com/ClerenceSilva
+abstract: > 
+
+##Introdução
+  A crescente incidência de fraudes financeiras representa um grande desafio para instituições e consumidores. Este estudo visa compreender padrões de fraude e desenvolver ferramentas preditivas para minimizar perdas. Para isso, utilizamos dados sintéticos de transações financeiras e construímos um aplicativo interativo em R Shiny, permitindo análises dinâmicas e visualizações robustas.
+
+```{r}
+##fraude_data: carregando os pacotes e base de dados
+
+```
+
+##Resultados e discussões
+Três análises descritivas foram realizadas: (1) um gráfico de barras mostrando a proporção de fraudes por hora do dia, evidenciando horários de maior risco; (2) um gráfico de barras laterais ranqueando os países pelo número de fraudes e não fraudes, destacando regiões mais suscetíveis; e (3) um histograma categorizando fraudes e não fraudes por tipo de comerciante, identificando setores mais vulneráveis. Além disso, conduzimos um teste de hipótese para avaliar a relação entre a taxa de fraudes e países, utilizando o teste qui-quadrado, que revelou associações significativas.
+
+```{r}
+#| label: carregando os pacotes
+require(data.table)
+require(tidyverse)
+require(magrittr)
+```
+
+##Conclusão
+Como etapa avançada, foi implementado um modelo de machine learning para prever a ocorrência de fraudes, utilizando algoritmos de classificação.
+Concluímos que padrões temporais, regionais e setoriais são determinantes para fraudes, e que ferramentas analíticas e preditivas, como as desenvolvidas neste estudo, são essenciais para mitigar riscos e otimizar decisões.
