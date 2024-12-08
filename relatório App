@@ -13,7 +13,9 @@ author:
 abstract: > 
 
 ##Introdução
-  A crescente incidência de fraudes financeiras representa um grande desafio para instituições e consumidores. Este estudo visa compreender padrões de fraude e desenvolver ferramentas preditivas para minimizar perdas. Para isso, utilizamos dados sintéticos de transações financeiras e construímos um aplicativo interativo em R Shiny, permitindo análises dinâmicas e visualizações robustas.
+  A crescente incidência de fraudes financeiras representa um grande desafio para instituições e consumidores.
+Este estudo visa compreender padrões de fraude e desenvolver ferramentas preditivas para minimizar perdas. 
+Para isso, utilizamos dados sintéticos de transações financeiras e construímos um aplicativo interativo em R Shiny, permitindo análises dinâmicas e visualizações robustas.
 
 ```{r}
 ##fraude_data: carregando os pacotes e base de dados
@@ -21,7 +23,11 @@ abstract: >
 ```
 
 ##Resultados e discussões
-Três análises descritivas foram realizadas: (1) um gráfico de barras mostrando a proporção de fraudes por hora do dia, evidenciando horários de maior risco; (2) um gráfico de barras laterais ranqueando os países pelo número de fraudes e não fraudes, destacando regiões mais suscetíveis; e (3) um histograma categorizando fraudes e não fraudes por tipo de comerciante, identificando setores mais vulneráveis. Além disso, conduzimos um teste de hipótese para avaliar a relação entre a taxa de fraudes e países, utilizando o teste qui-quadrado, que revelou associações significativas.
+Três análises descritivas foram realizadas: 
+(1) um gráfico de barras mostrando a proporção de fraudes por hora do dia, evidenciando horários de maior risco; 
+(2) um gráfico de barras laterais ranqueando os países pelo número de fraudes e não fraudes, destacando regiões mais suscetíveis; 
+(3) um histograma categorizando fraudes e não fraudes por tipo de comerciante, identificando setores mais vulneráveis. 
+Além disso, conduzimos um teste de hipótese para avaliar a relação entre a taxa de fraudes e países, que revelou associações significativas.
 
 ```{r}
 #| label: carregando os pacotes
